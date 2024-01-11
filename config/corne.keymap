@@ -47,10 +47,10 @@
             //                     | GUI |     | ALT/ENT |   |  | RSE | ALT |
 
             bindings = <
-&trans     &kp N0  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET                   &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSLH
-&kp TAB    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5          &kp MINUS                   &kp EQUAL  &kp GRAVE        &kp LBKT  &kp RBKT  &kp PIPE
-&kp LSHFT  &kp N6  &kp N7  &kp N8    &kp N9    &kp N0          &kp UNDER                   &kp PLUS   &kp TILDE        &kp LBRC  &kp RBRC  &kp RSHFT
-                           &kp LGUI  &trans    &tp LALT RET    &tp LC(LS(LA(LGUI))) SPACE  &kp BSPC   &trans
+&trans   &kp N0  &kp N1  &kp N2     &kp N3         &kp N4          &kp N5                        &kp N6  &kp N7    &kp N8  &kp N9  &kp RBKT
+&kp TAB  &trans  &trans  &trans     &trans         &trans          &trans                        &trans  &trans    &trans  &trans  &trans
+&trans   &trans  &trans  &trans     &trans         &trans          &trans                        &trans  &trans    &trans  &trans  &kp DEL
+                         &kp LCTRL  &kp LEFT_META  &tp LALT RET    &tp LC(LS(LA(LGUI))) LG(TAB)  &mo 2   &kp LALT
             >;
         };
 
