@@ -40,15 +40,15 @@
 
                 layer_below {
 // -----------------------------------------------------------------------------------------
-// |      |  !  |  @  |  #  |  $  |    %     |   |  ^  |  &  |  *  |  (  |  )  |   \   |
-// |      |  1  |  2  |  3  |  4  |    5     |   |  -  |  =  |  `  |  [  |  ]  |  "|"  |
-// | SHFT |  6  |  7  |  8  |  9  |    0     |   |  _  |  +  |  ~  |  {  |  }  | RSHFT |
-//                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
+// |      |  0  |  1  |  2  |  3  |    4     |   |  5  |  6  |  7  |  8  |  9  |   ]   |
+// | TAB  |  1  |  2  |  3  |  4  |    5     |   |    |    |    |    |    |    |
+// |      |  6  |  7  |  8  |  9  |    0     |   |    |    |    |    |    |  |
+//                     | GUI |     | ALT/ENT |   |  | RSE | ALT |
                         bindings = <
    &trans &kp N0 &kp N1 &kp N2 &kp N3 &kp N4   &kp N5  &kp N6  &kp N7 &kp N8 &kp N9 &kp RBKT
    &kp TAB &trans &trans &trans &trans &trans      &trans  &trans &trans  &trans &trans &trans
    &trans &trans &trans &trans &trans &trans      &trans  &trans  &trans &trans &trans &trans
-                         &trans &kp LGUI  &trans     &trans &mo 2  &kp LALT
+                         &trans &kp LGUI  &trans     &tp LC(LS(LA(LGUI))) LGUI(TAB) &mo 2  &kp LALT
                         >;
                 };
 
